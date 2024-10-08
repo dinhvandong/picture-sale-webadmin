@@ -1,0 +1,16 @@
+.row-even {
+    @apply text-black bg-white;
+
+  }
+  
+  .row-odd {
+    @apply text-white bg-gray-600;
+
+  }
+
+  .ant-table-tbody > tr:hover {
+    background-color: inherit;
+  }
+  .ant-table-thead > tr > th {
+    background-color: #2F4842;
+  }
