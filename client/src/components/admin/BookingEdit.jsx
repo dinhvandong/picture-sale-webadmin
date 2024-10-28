@@ -155,11 +155,8 @@ const BookingEdit = (props) => {
                 ...prevFormData,
                 eventPlanItemList: items
             };
-
             console.log("formDataEvent00::", updatedFormData);
-
             console.log(JSON.stringify(updatedFormData));
-
             const result = await updateEvent(JSON.stringify(updatedFormData));
             if (result.success === 200) {
                 navigate('/admin/event');
